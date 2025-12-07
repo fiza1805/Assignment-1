@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.animated-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  transition: 0.5s ease; /* smooth animation */
+}
+
+.animated-text:hover {
+  font-size: 45px;
+  color: red;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2 class="animated-text">Hover Over Me!</h2>
+
+</body>
+</html>
