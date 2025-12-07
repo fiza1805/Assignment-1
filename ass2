@@ -1,0 +1,30 @@
+Scaffold(
+  resizeToAvoidBottomInset: true,
+  body: SafeArea(
+    child: SingleChildScrollView(
+      padding: EdgeInsets.only(
+        bottom: MediaQuery.of(context).viewInsets.bottom + 30,
+      ),
+      child: Column(
+        children: [
+          // Your page content here
+          SizedBox(height: 20),
+
+          TextField(
+            decoration: InputDecoration(
+              labelText: "Email",
+            ),
+          ),
+
+          SizedBox(height: 20),
+
+          TextField(
+            decoration: InputDecoration(
+              labelText: "Password",
+            ),
+          ),
+        ],
+      ),
+    ),
+  ),
+);
